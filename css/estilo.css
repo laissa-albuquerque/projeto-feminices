@@ -1,0 +1,336 @@
+/**************************************
+		Formatação geral             */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #fff url('../imagens/principal.png') no-repeat;
+	background-position: top center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	width: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**************************************
+				Menu            	*/
+
+#menu {
+	font-family: Copperplate, Papyrus, fantasy;
+	float: right;
+	margin: 45px 0px 30px 0px;
+	width: 29%;
+}
+
+#menu ul li a {
+	border: 1px solid #96514A;
+	text-align: center;
+	background: #BD665C;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2em;
+	display: block;
+	padding: 5px 0 5px 0;
+}
+
+#menu ul li {
+	margin-bottom: 20px;
+}
+
+#menu ul a:hover {
+	color: #fff;
+	text-align: left;
+	background-color: #96514A;
+}
+
+body.home #menu a#home, 
+body.quemsomos #menu a#quemsomos,
+body.projetos #menu a#projetos,
+body.jornadas #menu a#jornadas,
+body.contato #menu a#contato,
+body.doe #menu a#doe {
+	background-color: #574644;
+	text-align: left;
+	cursor: text;
+}
+
+/**************************************
+		Pagina Principal           	 */
+
+#principal {
+	width: 80%;
+	float: left;
+	margin: 0 0 0 10%;
+}
+
+/*Layout principal*/
+#layout-principal {
+	float: left;
+	width: 50%;
+	margin: 5px 0 10px 40%;
+	border: 2px solid #96514A;
+	border-radius: 10px;
+}
+
+#layout-principal h2 {
+	font-size: 1.2em;
+	text-align: right;
+	color: #574644;
+	margin: 5px 5px 0 0;
+	background: #fff;
+	text-transform: uppercase;
+}
+
+#layout-principal img {
+	margin: 5px 5px 5px 5px;
+	width: 98%;
+}
+
+#layout-principal p {
+	font-size: 1em;
+	padding: 0 5px 10px 5px;
+	line-height: 20px;
+}
+
+#layout-principal hr {
+	border-top: 1px dashed #BDBDBD;
+	margin: 0 0 10px 0;
+}
+
+/*Layout esquerdo*/
+#layout-esquerdo {
+	float: left;
+	width: 25%;
+	margin: 5px 0 0 -78%;
+	border: 1px solid #96514A;
+	background: #A35850 url(../imagens/fundo-layout.png);
+	border-radius: 10px;
+}
+
+#principal #layout-esquerdo h2 {
+	font-size: 1.2em;
+	background-color: #A35850;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#layout-esquerdo img {
+	width: 35%;
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+#layout-esquerdo h3 {
+	font-size: 0.75em;
+	text-transform: uppercase;
+	background: #fff;
+	color: #574644;
+	font-weight: bold;
+	padding: 2px;
+	display: inline;
+}
+
+#layout-esquerdo p {
+	font-size: 0.74em;
+	color: #000;
+	margin: 2px 0 0 0;
+}
+
+#layout-esquerdo ul li a {
+	color: #fff;
+	font-style: italic;
+}
+
+#opacidade li {
+	width: 93%;
+	background-color: rgba(192,192,192,0.3);
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+/*Layout inferior*/
+#layout-inferior {
+	width: 100%;
+	background: #96514A;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#caixa {
+	background-color: rgba(192,192,192,0.3);
+	width: 90%;
+	margin: 0 0 10px 5%;
+	border-radius: 20px;
+	float: left;
+}
+
+#layout-inferior h2 {
+	font-size: 1.9em;
+	color: #fff;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.caixa-depoimento {
+	float: left;
+	margin: 0 0 0 10%;
+	padding: 20px;
+}
+
+#caixa .caixa-depoimento h3 {
+	font-size: 1em;
+	text-align: center;
+	background: #fff;
+	color: #574644;
+}
+
+#caixa .caixa-depoimento p {
+	width: 200px;
+	font-size: 0.9em;
+	font-style: italic;
+	text-align: center;
+}
+
+/*Rodapé*/
+#rodape {
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+/**************************************
+			Quem Somos            	 */
+
+#quem-somos {
+	background: #A35850 url(../imagens/fundo-maior.png);
+	text-align: center;
+	width: 61%;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 2px solid #574644;
+	margin-bottom: 5px;
+}
+
+#quem-somos img {
+	margin: 1% 5% 1% 5%;
+	width: 80%;
+}
+
+#quem-somos h2 {
+	font-size: 1.8em;
+	padding-top: 5px;
+	text-transform: uppercase;
+	color: #424242;
+	border-bottom: 4px solid #424242;
+	letter-spacing: 5px;
+} 
+
+#opacidade-caixa {
+	background-color: rgba(192,192,192,0.3);
+	width: 90%;
+	margin: 3% 3% 3% 5%;
+	border-radius: 20px;
+}
+
+#quem-somos p {
+	font-size: 0.95em;
+	padding-bottom: 5px;
+	color: #fff;
+}
+
+/**************************************
+			Projetos            	 */
+
+
+#principal-projetos {
+	width: 61%;
+	margin: 0 0 0 19.5%;
+	border: 2px solid #574644;
+	margin-bottom: 5px;
+	background: #A35850;
+	float: left;
+	border-radius: 10px;
+}
+
+#principal-projetos ul li {
+	width: 95%;
+	margin: 5px 0 5px 1.8%;
+	float: left;
+	padding: 5px;
+	background-color: rgba(192,192,192,0.3);
+	border-radius: 10px;
+}
+
+#principal-projetos ul li h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+#principal-projetos ul li p {
+	padding: 5px;
+	color: #424242;
+}
+
+#principal-projetos .projeto1 img {
+	width: 30%;
+	float: left;
+	margin-right: 12px;
+}
+
+#principal-projetos .projeto2 img {
+	width: 30%;
+	float: right;
+	margin-right: 12px;
+}
+ 
+#principal-projetos ul li:hover {
+	background: #E37B6F;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
