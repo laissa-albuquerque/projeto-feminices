@@ -126,6 +126,7 @@ body.doe #menu a#doe {
 	padding: 5px;
 	text-align: center;
 	border-radius: 10px;
+	text-transform: uppercase;
 }
 
 #layout-esquerdo img {
@@ -172,7 +173,6 @@ body.doe #menu a#doe {
 	width: 100%;
 	background: #96514A;
 	float: left;
-	margin-bottom: 10px;
 }
 
 #caixa {
@@ -313,13 +313,84 @@ body.doe #menu a#doe {
 	background: #E37B6F;
 }
 
+/**************************************
+			Jornadas            	 */
 
+#esquerdo-jornadas h3,
+#esquerdo-jornadas p {
+	font-style: normal;	
+}
 
+#esquerdo-jornadas img {
+	width: 35%;
+}
 
+#esquerdo-jornadas ul li:hover {
+	background: #E37B6F;
+}
 
+#jornadas-principal h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
 
+#jornadas-principal #layout-principal p {
+	padding: 0 10px 10px 10px;	
+}
 
- 
+#jornadas-principal #layout-principal img {
+	width: 98%;
+}
+
+#jornadas-layout {
+	float: left;
+	width: 50%;
+	margin: 5px 0 10px 40%;
+	border: 2px solid #96514A;
+	border-radius: 10px;
+}
+
+#formulario {
+	float: left;
+	margin: 8% 0 0 8%;
+	width: 20%;
+}
+
+#layout-inferior #caixa #identificacao label {
+	padding-top: 5px;
+	display: block;
+	cursor: pointer;
+	color: #2E2E2E;
+}
+
+#layout-inferior #caixa #identificacao input {
+	margin-bottom: 5px;
+} 
+
+textarea {
+	width: 90%;
+}
+
+label, input {
+	width: 90%;
+}
+
+#submit {
+	width: 40%;
+	background: #E37B6F;
+	color: #fff;
+	border: 2px solid #572F2A;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#ilustracao img {
+	float: right;
+	margin: 0 0 0 0;
+	border-top: 2px solid #574644;
+	border-bottom: 2px solid #574644;
+	border-radius: 0 20px 20px 0;
+}
 
 
 
